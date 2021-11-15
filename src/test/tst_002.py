@@ -10,7 +10,7 @@ class tst_002 (unittest.TestCase):
         self.Variable_A = 6
         self.Variable_B = 6
         self.Resultado = self.Variable_A + self.Variable_B
-
+        #dfsdfsdf
         self.assertEqual (self.Variable_A, self.Variable_B, "Son iguales")
 
     def test_003(self):
