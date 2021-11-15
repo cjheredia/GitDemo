@@ -11,6 +11,8 @@ class Test_001 (unittest.TestCase):
         Variable_B = 4
         self.Resultado = Variable_A + Variable_B
         print(self.Resultado)
+        self.Resultado2 = self.Resultado + 5
+        print(self.Resultado2)
 
     def tearDown(self):
         self.assertTrue (self.Resultado == 10, "El valor no es 10, el valor es (self.Resultado)")
